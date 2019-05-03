@@ -1,0 +1,28 @@
+html, body {
+	margin: 0;
+	height: 100%;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#gauge {
+	margin: 0 auto;
+	height: 80vh;
+	width: 80vw;
+	float: left;
+	position: absolute;
+}
+
+#logo {
+	top: 13vh; /* Adjust y-pos of the logo */
+	width: 33vw;
+    position:relative;
+}
+
+#gauge > svg:nth-child(1) > text:nth-child(10) {
+    font-size: 0.8em !important;
+}
